@@ -24,7 +24,7 @@ public class UserHelper extends HelperBase {
         click(By.cssSelector("#login-submit"));
     }
     public boolean isLogged() {
-        return wd.findElements(By.cssSelector("[data-test-id = 'header-member-menu-button']")).size() > 0;
+        return wd.findElements(By.cssSelector("[data-test-id='header-member-menu-button']")).size() > 0;
 
     }
 

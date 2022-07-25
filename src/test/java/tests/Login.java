@@ -15,7 +15,7 @@ public class Login extends TestBase{
     }
     @Test
     public void loginPositive() throws InterruptedException {
-        User user = new User().setEmail("juliakliot.jk@gmail.com").setPassword("240613");
+        User user = new User().setEmail("juliakliot.jk@gmail.com").setPassword("misha240613");
         app.getUser().initLogin();
         app.getUser().fillInLoginForm(user);
         app.getUser().submitLogin();
